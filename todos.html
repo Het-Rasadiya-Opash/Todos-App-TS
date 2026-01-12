@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="add-section">
+        <h2>Add Task</h2>
+
+        <input
+          id="new-todo-text"
+          type="text"
+          placeholder="Enter new task..."
+        />
+
+        <label class="completed-row">
+          <input id="new-todo-completed" type="checkbox" />
+          Mark as completed
+        </label>
+
+        <button id="add-btn">Add Task</button>
+      </div>
+
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="todos.js"></script>
+  </body>
+</html>
