@@ -6,7 +6,8 @@
   --danger: #ff4d4d;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
@@ -111,7 +112,6 @@ li.todo-item:last-child {
   cursor: pointer;
 }
 
-
 .empty {
   padding: 20px;
   text-align: center;
@@ -129,4 +129,3 @@ li.todo-item:last-child {
     width: 100%;
   }
 }
-
