@@ -35,7 +35,6 @@ function addTodo(text: string, completed: boolean): void {
   };
 
   todos.push(newTodo);
-
   saveTodos(todos);
   displayTodos();
 }
