@@ -111,6 +111,14 @@ li.todo-item:last-child {
   cursor: pointer;
 }
 
+
+.empty {
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+}
+
 @media (max-width: 720px) {
   .app {
     flex-direction: column;
@@ -122,9 +130,3 @@ li.todo-item:last-child {
   }
 }
 
-.empty {
-  padding: 20px;
-  text-align: center;
-  color: var(--muted);
-  font-style: italic;
-}
